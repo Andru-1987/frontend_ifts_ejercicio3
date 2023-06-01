@@ -5,3 +5,43 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+
+body{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+    min-height: 650px;
+    width: 100vw;
+    
+}
+
+.container{
+    margin:10px;
+    
+    width: 90%;
+    max-width: 1200px;
+    height: 100%;
+    
+    box-sizing: content-box;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-svg{
+    width: 90%;   
+    min-width: 400px;
+    margin-bottom: 40px;
+    border:1px solid red;
+}
+
+img{
+    display: block;
+    width: 100%;
+    border:1px solid red;
+}
