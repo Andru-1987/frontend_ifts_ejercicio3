@@ -18,15 +18,19 @@ body{
 
     height: 100vh;
     min-height: 650px;
-    width: 100vw;
+    width: 100vw; 
     
     box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container{
     width: 90%;
     max-width: 1200px;
     height: 100%;
+
 }
 
 .container{
@@ -77,9 +81,31 @@ img{
 }
 
 @media (width >= 768px){
+
+    .container{
+        max-width: 100%;
+    }
     .container{
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+
     }
+
+    .img-svg{
+        width: 45%;
+        margin-bottom: 0;
+    }
+
+    .texto{
+        width: 50%;        
+    }
+
+    .texto > h2{
+        font-size: 2.5rem;
+    }
+    .texto > p {
+        margin:  0.7em 0 1em 0;
+    }
+
 }
